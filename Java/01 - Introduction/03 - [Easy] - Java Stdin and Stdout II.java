@@ -10,7 +10,8 @@ public class Solution {
         Scanner scan = new Scanner(System.in);
         int i = scan.nextInt();
         double j = scan.nextDouble();
-        string k = scan.nextLine();
+        String k = scan.nextLine();
+        k = scan.nextLine();
 
         System.out.println("String: " + k);
         System.out.println("Double: " + j);
