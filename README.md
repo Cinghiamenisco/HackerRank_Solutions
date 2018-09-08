@@ -5,8 +5,6 @@
     <br>Soluzioni per "HackerRank"
 </p>
 
-//To-Do
-
 * [Java](#Java)
 * [SQL](#SQL)
 * [C](#C)
