@@ -16,6 +16,10 @@ Per le soluzioni di "Problem Solving" è stato utilizzato Java 8
 
 #Java
 
+| Day |                                                          Challenge                                                         | Points |                                                                                          Solution                                                                                         |
+|:---:|:--------------------------------------------------------------------------------------------------------------------------:|:------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|  0  | [Mean, Median, and Mode](https://www.hackerrank.com/challenges/s10-basic-statistics)                                       |   30   | [Solution.java](https://github.com/RodneyShag/HackerRank_solutions/blob/master/10%20Days%20of%20Statistics/Day%200%20-%20Mean%2C%20Median%2C%20and%20Mode/Solution.java)                |
+
 #SQL
 
 #C
