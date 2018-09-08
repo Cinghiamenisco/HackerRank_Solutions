@@ -1,4 +1,6 @@
-//Complete the following function.
+// Autore:      Christian Luzzetti
+// Mail:        Christian.luzzetti@gmail.com
+// HackerRank:  https://www.hackerrank.com/Cinghiamenisco
 
 int marks_summation(int* marks, int number_of_students, char gender) {
   //Write your code here.
