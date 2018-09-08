@@ -5,6 +5,8 @@
     <br>Soluzioni per "HackerRank"
 </p>
 
+//To-Do
+
 * [Java](#Java)
 * [SQL](#SQL)
 * [C](#C)
@@ -16,12 +18,8 @@ Per le soluzioni di "Problem Solving" è stato utilizzato Java 8
 
 # Java
 
-|          Subdomain          |                                                         Challenge                                                        | Points |                                                                                         Solution                                                                                        |
-|:---------------------------:|:------------------------------------------------------------------------------------------------------------------------:|:------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-|         Introduction        | [Welcome to Java!](https://www.hackerrank.com/challenges/welcome-to-java)                                                |    3   | [Solution.java]              |
+# SQL
 
-#SQL
+# C
 
-#C
-
-#Problem_Solving
+# Problem_Solving
