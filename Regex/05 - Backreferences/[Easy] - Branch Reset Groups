@@ -1,0 +1,6 @@
+// Autore:      Christian Luzzetti
+// Mail:        Christian.luzzetti@gmail.com
+// HackerRank:  https://www.hackerrank.com/Cinghiamenisco
+
+//Only PERL and PHP
+$Regex_Pattern = '^\d{2}((-)|(.)|(---)|(:))\d{2}\1\d{2}\1\d{2}$';
