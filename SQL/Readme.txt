@@ -1,3 +1,3 @@
-To-Do
+Useful Resources:
 
-Inserire le soluzioni relative al modulo SQL
+https://jaxenter.com/10-sql-tricks-that-you-didnt-think-were-possible-125934.html
