@@ -1,0 +1,29 @@
+// Autore:      Christian Luzzetti
+// Mail:        Christian.luzzetti@gmail.com
+// HackerRank:  https://www.hackerrank.com/Cinghiamenisco
+
+ /* Node is defined as :
+ class Node 
+    int data;
+    Node left;
+    Node right;
+    */
+
+	public static Node insert(Node root,int data) {
+
+        if (root == null) {
+            Node inserted = new Node(data);
+            inserted.left = null;
+            inserted.right = null;
+            return inserted;
+        }
+        
+        if (data > root.data) {
+            root.right = insert(root.right, data);
+        } else {
+            root.left = insert(root.left, data);
+        }
+        
+        return root;
+        
+    }
