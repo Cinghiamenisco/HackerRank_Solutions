@@ -1,0 +1,32 @@
+// Autore:      Christian Luzzetti
+// Mail:        Christian.luzzetti@gmail.com
+// HackerRank:  https://www.hackerrank.com/Cinghiamenisco
+
+
+function name(t){
+  if ((t == "a") ||
+      (t == "e") || 
+      (t == "i") || 
+      (t == "o") || 
+      (t == "u")) {
+      return true;
+  }
+    return false;
+}
+
+function vowelsAndConsonants(s) {
+    
+    var i;
+    
+    for(i=0; i<s.length; i++) {
+        if (name(s[i])) {
+            console.log(s[i]);
+        }
+    }
+    
+    for(i=0; i<s.length; i++) {
+        if (name(s[i]) == false) {
+            console.log(s[i]);
+        }
+    }    
+}
