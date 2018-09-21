@@ -1,0 +1,15 @@
+// Autore:      Christian Luzzetti
+// Mail:        Christian.luzzetti@gmail.com
+// HackerRank:  https://www.hackerrank.com/Cinghiamenisco
+  
+function reverseString(s) {
+    
+    try {
+        console.log(s.split("").reverse().join(""));
+        
+    } catch (exc) {
+        console.log(exc.message);
+        console.log(s);
+    }
+    
+}
