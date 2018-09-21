@@ -1,0 +1,19 @@
+// Autore:      Christian Luzzetti
+// Mail:        Christian.luzzetti@gmail.com
+// HackerRank:  https://www.hackerrank.com/Cinghiamenisco
+
+function getSecondLargest(nums) {
+    // Complete the function
+    let max = 0;
+    let runnerUp = 0;
+    for (let i=0; i<nums.length; i++) {
+       if  (nums[i] > max) {
+           runnerUp = max;
+           max = nums[i];
+       }
+        if (nums[i] > runnerUp && nums[i] < max) {
+            runnerUp = nums[i];
+        }
+    }
+    return runnerUp;
+}
