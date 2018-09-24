@@ -11,8 +11,6 @@ public class DuplicateWords {
     public static void main(String[] args) {
 
         String regex = "\\b(\\w+)(\\s\\1)+\\b";
-        
-        //Flag regex!
         Pattern p = Pattern.compile(regex, Pattern.CASE_INSENSITIVE);
 
         Scanner in = new Scanner(System.in);
@@ -23,8 +21,8 @@ public class DuplicateWords {
             
             Matcher m = p.matcher(input);
             
+            // Check for subsequences of input that match the compiled pattern
             while (m.find()) {
-                //LINEA IMPORTANTE!!! Sostituzione tra gruppi di regex. Il vuoto è tutta la stringa matchata.
                 input = input.replaceAll(m.group(), m.group(1));
             }
             
