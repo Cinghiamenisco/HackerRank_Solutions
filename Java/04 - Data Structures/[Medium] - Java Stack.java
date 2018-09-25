@@ -4,16 +4,16 @@
 
 import java.util.*;
 class Solution{
-	
-	public static void main(String []argh)
-	{
+    
+    public static void main(String []argh)
+    {
         Stack<Character> stack = new Stack<Character>();
-		Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         
         boolean res;
         
-		while (sc.hasNext()) {
-			String input=sc.next();
+        while (sc.hasNext()) {
+            String input=sc.next();
             
             stack.removeAllElements();
             res = true;
@@ -31,16 +31,28 @@ class Solution{
                         stack.push(input.charAt(i));
                         break;    
                     case ')':
-                        if( ! (stack.pop()).equals('(') )
+                        try {
+                            if( ! (stack.pop()).equals('(') )
+                                res = false;
+                        } catch (EmptyStackException ese) {
                             res = false;
+                        }
                         break;
                     case ']':
-                        if( ! (stack.pop()).equals('[') )
+                        try {
+                            if( ! (stack.pop()).equals('[') )
+                                res = false;
+                        } catch (EmptyStackException ese) {
                             res = false;
+                        }
                         break;
                     case '}':
-                        if( ! (stack.pop()).equals('{') )
+                        try {
+                            if( ! (stack.pop()).equals('{') )
+                                res = false;
+                        } catch (EmptyStackException ese) {
                             res = false;
+                        }
                         break;    
                 }
             }
@@ -50,8 +62,5 @@ class Solution{
             System.out.println(res);
         }
             
-	}
+    }
 }
-
-
-
