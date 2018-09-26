@@ -1,4 +1,6 @@
-// Write your Checker class here
+// Autore:      Christian Luzzetti
+// Mail:        Christian.luzzetti@gmail.com
+// HackerRank:  https://www.hackerrank.com/Cinghiamenisco
 
 class Checker implements Comparator<Player> {
     @Override
