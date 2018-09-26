@@ -1,5 +1,8 @@
-import java.util.*;
+// Autore:      Christian Luzzetti
+// Mail:        Christian.luzzetti@gmail.com
+// HackerRank:  https://www.hackerrank.com/Cinghiamenisco
 
+import java.util.*;
 
 class Student implements Comparable<Student>{
 	private int id;
