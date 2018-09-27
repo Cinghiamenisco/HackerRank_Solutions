@@ -1,0 +1,52 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+    
+    
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner scan = new Scanner(System.in);
+        int lunghezza_insieme = scan.nextInt();
+        int numero_op = scan.nextInt();
+        
+        BitSet[] bitsets_set = new BitSet[2];
+        bitsets_set[0] = new BitSet(lunghezza_insieme);
+        bitsets_set[1] = new BitSet(lunghezza_insieme);
+        
+        
+        for (int i=0; i<numero_op; i++) {
+            
+            String op = scan.next();
+            int set = scan.nextInt();
+            int target = scan.nextInt();
+            
+                        
+            switch (op) {
+                case "AND":
+                    bitsets_set[set-1].and(bitsets_set[target-1]);
+                    break;
+                case "SET":
+                    bitsets_set[set-1].set(target);
+                    break;
+                case "FLIP":
+                    bitsets_set[set-1].flip(target);
+                    break;
+                case "OR":
+                    bitsets_set[set-1].or(bitsets_set[target-1]);
+                    break;
+                case "XOR":
+                    bitsets_set[set-1].xor(bitsets_set[target-1]);
+                    break;
+                default:
+                    System.out.println("Comando sconosciuto");
+                    break;
+            } //End switch
+            
+            System.out.println(bitsets_set[0].cardinality() + " " + bitsets_set[1].cardinality());
+
+            
+        } //End for
+        
+    }
+}
