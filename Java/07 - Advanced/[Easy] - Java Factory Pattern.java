@@ -1,4 +1,8 @@
-	class FoodFactory {
+// Autore:      Christian Luzzetti
+// Mail:        Christian.luzzetti@gmail.com
+// HackerRank:  https://www.hackerrank.com/Cinghiamenisco
+
+class FoodFactory {
 		public Food getFood(String order) {
         
         if (order.equalsIgnoreCase("CAKE"))
