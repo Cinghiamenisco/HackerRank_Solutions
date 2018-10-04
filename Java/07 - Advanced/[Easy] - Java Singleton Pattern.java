@@ -9,7 +9,6 @@ import java.math.*;
 import java.util.regex.*;
 import java.lang.reflect.*;
 
-
 class Singleton {
     
     private static Singleton instance;
