@@ -1,0 +1,15 @@
+// Autore:      Christian Luzzetti
+// Mail:        Christian.luzzetti@gmail.com
+// HackerRank:  https://www.hackerrank.com/Cinghiamenisco
+
+
+function getCount(objects) {
+
+    let tot =0;
+    for (let obs of objects) {
+        if (obs.x == obs.y) {
+            tot++;
+        }
+    }
+    return tot;
+}
