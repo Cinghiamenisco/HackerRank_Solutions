@@ -4,20 +4,11 @@
     </a>
     <br>Soluzioni per "HackerRank"
 </p>
-
+* [10 Days Of JavaScript](https://github.com/Cinghiamenisco/HackerRank_Solutions/tree/master/10%20Days%20of%20Javascript)
+* [30 Days Of Code](https://github.com/Cinghiamenisco/HackerRank_Solutions/tree/master/30%20Days%20Of%20Code)
+* [C](https://github.com/Cinghiamenisco/HackerRank_Solutions/tree/master/C)
 * [Java](https://github.com/Cinghiamenisco/HackerRank_Solutions/tree/master/Java)
-* [SQL](#SQL)
-* [C](#C)
 * [Problem_Solving](#Problem_Solving)
-
-Per le le soluzioni ai problemi di SQL, è stato utilizzato Oracle SQL
-
-Per le soluzioni di "Problem Solving" è stato utilizzato Java 8
-
-# Java
-
-# SQL
-
-# C
-
-# Problem_Solving
+* [Python](https://github.com/Cinghiamenisco/HackerRank_Solutions/tree/master/Python/01%20-%20Introduction)
+* [Regex](https://github.com/Cinghiamenisco/HackerRank_Solutions/tree/master/Regex)
+* [SQL](https://github.com/Cinghiamenisco/HackerRank_Solutions/tree/master/SQL)
