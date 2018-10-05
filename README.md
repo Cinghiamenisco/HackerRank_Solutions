@@ -4,8 +4,7 @@
     </a>
     <br>Soluzioni per "HackerRank"
 </p>
-* [10 Days Of JavaScript](https://github.com/Cinghiamenisco/HackerRank_Solutions/tree/master/10%20Days%20of%20Javascript)
-* [30 Days Of Code](https://github.com/Cinghiamenisco/HackerRank_Solutions/tree/master/30%20Days%20Of%20Code)
+
 * [C](https://github.com/Cinghiamenisco/HackerRank_Solutions/tree/master/C)
 * [Java](https://github.com/Cinghiamenisco/HackerRank_Solutions/tree/master/Java)
 * [Problem_Solving](#Problem_Solving)
