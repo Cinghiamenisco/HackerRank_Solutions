@@ -5,7 +5,7 @@
     <br>Soluzioni per "HackerRank"
 </p>
 
-* [Java](#Java)
+* [Java](https://github.com/Cinghiamenisco/HackerRank_Solutions/tree/master/Java)
 * [SQL](#SQL)
 * [C](#C)
 * [Problem_Solving](#Problem_Solving)
