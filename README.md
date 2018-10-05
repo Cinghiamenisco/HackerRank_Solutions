@@ -9,7 +9,7 @@
 * [30 Days Of Code](https://github.com/Cinghiamenisco/HackerRank_Solutions/tree/master/30%20Days%20Of%20Code)
 * [C](https://github.com/Cinghiamenisco/HackerRank_Solutions/tree/master/C)
 * [Java](https://github.com/Cinghiamenisco/HackerRank_Solutions/tree/master/Java)
-* [Problem_Solving](#Problem_Solving)
+* [Problem_Solving](https://github.com/Cinghiamenisco/HackerRank_Solutions/tree/master/Problem%20Solving)
 * [Python](https://github.com/Cinghiamenisco/HackerRank_Solutions/tree/master/Python/01%20-%20Introduction)
 * [Regex](https://github.com/Cinghiamenisco/HackerRank_Solutions/tree/master/Regex)
 * [SQL](https://github.com/Cinghiamenisco/HackerRank_Solutions/tree/master/SQL)
