@@ -1,0 +1,19 @@
+// Autore:      Christian Luzzetti
+// Mail:        Christian.luzzetti@gmail.com
+// HackerRank:  https://www.hackerrank.com/Cinghiamenisco
+
+class Polygon{
+    
+    constructor(arr) {
+        this.sides = arr;
+    }
+    
+    perimeter(arr) {
+        let sum =0;
+        for (let x of this.sides) {
+            sum+=x;
+        }
+        return sum;
+    }
+    
+}
