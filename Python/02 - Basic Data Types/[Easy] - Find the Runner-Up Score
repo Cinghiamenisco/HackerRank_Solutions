@@ -1,0 +1,14 @@
+# Autore:      Christian Luzzetti
+# Mail:        Christian.luzzetti@gmail.com
+# HackerRank:  https://www.hackerrank.com/Cinghiamenisco
+
+if __name__ == '__main__':
+    n = int(input())
+    arr = map(int, input().split())
+    L = [k for k in arr]
+    L.sort(reverse=True)
+    max = L[0]
+    for l in L:
+        if l < max:
+            print(l)
+            break
