@@ -5,5 +5,5 @@
 DONE=false
 until $DONE ; do
     read || DONE=true
-    tr [a-z] ' ' <<< "$REPLY"
+    tr -d [a-z] <<< "$REPLY"
 done
